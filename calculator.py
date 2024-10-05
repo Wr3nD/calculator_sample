@@ -8,5 +8,4 @@ def ask_user():
             divisor = int(input())
             is_correct = True
         except ValueError:
-            print('zadaj korektne cislo') 
-    print(get_count(number,divisor))
+            print('zadaj korektne cislo')
